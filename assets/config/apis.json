@@ -1,0 +1,80 @@
+{
+    "FREE":{
+        "name":"Layer4 FREE",
+        "type": "Layer4",
+        "slots":1,
+        "url":"https://yourapihere.site/api/attack?username=USERNAME&password=PASSWORD&host=$host&port=$port&time=$time&method=$method",
+        "methods":{
+            "UDP":"UDP",
+            "TCP":"TCP"
+        }
+        },
+    "Layer4":{
+        "name":"Layer4",
+        "type": "Layer4",
+        "slots":3,
+        "url":"https://yourapihere.site/api/attack?username=USERNAME&password=PASSWORD&host=$host&port=$port&time=$time&method=$method",
+        "methods":{
+            "ESP":"ESP",
+            "SOCKET":"SOCKET",
+            "RAND":"RAND",
+            "MIXAMP":"MIXAMP",
+            "ACK":"ACK",
+            "LDAP":"LDAP",
+            "VSE":"VSE",
+            "NFO":"NFO",
+            "SYN":"SYN",
+            "BASICUDP":"BASICUDP",
+            "FIVEM":"FIVEM",
+            "OVH-UDP":"OVH-UDP",
+            "GAME-MIX":"GAME-MIX",
+            "GAME-RL":"GAME-RL"
+        }
+        },
+        "Layer4-VIP":{
+        "name":"Layer4 VIP",
+        "type": "Layer4",
+        "slots":3,
+        "url":"https://yourapihere.site/api/attack?username=USERNAME&password=PASSWORD&host=$host&port=$port&time=$time&method=$method",
+        "methods":{
+            "SOCKET":"SOCKET",
+            "BETA":"BETA",
+            "FLOOD":"FLOOD",
+            "DISCORD-VIP":"DISCORD-VIP",
+            "OVH-MAX":"OVH-MAX",
+            "POWER-VIP":"POWER-VIP",
+            "RAW-VIP":"RAW-VIP",
+            "SSH-VIP":"SSH-VIP",
+            "UDP-VIP":"UDP-VIP",
+            "TCP-VIP":"TCP-VIP",
+            "GAME-MIX":"GAME-MIX",
+            "GAME-THEFINALS":"GAME-THEFINALS",
+            "GAME-FIVEM":"GAME-FIVEM"
+        }
+        },
+        "Layer7":{
+            "name":"Layer7",
+            "type": "Layer7",
+            "slots":2,
+            "url":"https://yourapihere.site/api/attack?username=USERNAME&password=PASSWORD&host=$host&port=$port&time=$time&method=$method",
+            "methods":{
+                "HTTP":"HTTP",
+                "HTTP-RDM":"HTTP-RDM",
+                "HTTP-BETA":"HTTP-BETA",
+                "HTTP-NOVIP":"HTTP-NOVIP"
+            }
+        },
+        "Layer7-VIP":{
+            "name":"Layer7 VIP",
+            "type": "Layer7",
+            "slots":4,
+            "url":"https://yourapihere.site/api/attack?username=USERNAME&password=PASSWORD&host=$host&port=$port&time=$time&method=$method",
+            "methods":{
+                "CFBYPASS":"CFBYPASS",
+                "HTTP-ROY":"HTTP-ROY",
+                "HTTP-VIP":"HTTP-VIP",
+                "ROY":"ROY",
+                "ROY-VIP":"ROY-VIP"
+            }
+        }
+}

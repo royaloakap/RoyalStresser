@@ -1,0 +1,22 @@
+{
+    "name": "Royal Projets",
+    "domain": "royalprojets.com",
+    "secure": false,
+    "version": "1.5.1",
+    "cert": "assets/cert.pem",
+    "key": "assets/key.pem",
+    "autobuy":{
+        "key":"",
+        "email": "",
+        " - comment - ":"https://dashboard.sellix.io/settings/security API Key."
+    },
+    "fake":{
+        "users": 25,
+        "attacks": 650000
+    },
+    "cnc":{
+        "enabled": false,
+        "ssh": "1337",
+        "telnet": "1447"
+    }
+}

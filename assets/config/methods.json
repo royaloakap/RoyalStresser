@@ -1,0 +1,254 @@
+{
+    "UDP":{
+        "type":0,
+        "name":"UDP",
+        "description":"UDP FLOOD",
+        "subnet":1,
+        "mtype":1
+    },
+    "SOCKET":{
+        "type":1,
+        "name":"SOCKET",
+        "description":"SOCKET FLOOD",
+        "subnet":1,
+        "mtype":1
+    },
+    "ESP":{
+        "type":0,
+        "name":"ESP",
+        "description":"ESP FLOOD",
+        "subnet":1,
+        "mtype":1
+    },
+    "RAND":{
+        "type":0,
+        "name":"RAND",
+        "description":"RAND FLOOD",
+        "subnet":1,
+        "mtype":1
+    },
+    "BETA":{
+        "type":1,
+        "name":"BETA",
+        "description":"Amplification vector using TCP servers",
+        "subnet":1,
+        "mtype":1
+    },
+    "FLOOD":{
+        "type":1,
+        "name":"FLOOD",
+        "description":"Amplification vector using UDP servers",
+        "subnet":1,
+        "mtype":1
+    },
+    "MIXAMP":{
+        "type":1,
+        "name":"MIXAMP",
+        "description":"Amplification vector, great for game servers",
+        "subnet":1,
+        "mtype":1
+    },
+    "LDAP":{
+        "type":1,
+        "name":"LDAP",
+        "description":"LDAP FLOOD",
+        "subnet":1,
+        "mtype":1
+    },
+    "TCP":{
+        "type":1,
+        "name":"TCP",
+        "description":"TCP FLOOD",
+        "subnet":1,
+        "mtype":1
+        },
+    "VSE":{
+        "type":1,
+        "name":"VSE",
+        "description":"VSE FLOOD",
+        "subnet":1,
+        "mtype":1
+        },
+    "NFO":{
+        "type":1,
+        "name":"NFO",
+        "description":"NFO FLOOD",
+        "subnet":1,
+        "mtype":1
+    },
+    "SYN":{
+        "type":1,
+        "name":"SYN",
+        "description":"SYN FLOOD",
+        "subnet":1,
+        "mtype":1
+        },
+    "BASICUDP":{
+        "type":1,
+        "name":"BASICUDP",
+        "description":"BASICUDP FLOOD",
+        "subnet":1,
+        "mtype":1
+        },
+    "FIVEM":{
+        "type":1,
+        "name":"FIVEM",
+        "description":"FIVEM FLOOD",
+        "subnet":1,
+        "mtype":1
+    },
+    "OVH-UDP":{
+        "type":1,
+        "name":"OVH-UDP",
+        "description":"OVH-UDP FLOOD",
+        "subnet":1,
+        "mtype":1
+        },
+    "ACK":{
+        "type":1,
+        "name":"ACK",
+        "description":"ACK FLOOD",
+        "subnet":1,
+        "mtype":1
+        },
+    "DISCORD-VIP":{
+        "type":1,
+        "name":"DISCORD-VIP",
+        "description":"DISCORD-VIP FLOOD",
+        "subnet":1,
+        "mtype":1
+    },
+    "OVH-MAX":{
+        "type":1,
+        "name":"OVH-MAX",
+        "description":"OVH-MAX FLOOD",
+        "subnet":1,
+        "mtype":1
+        },
+    "POWER-VIP":{
+        "type":1,
+        "name":"POWER-VIP",
+        "description":"POWER-VIP FLOOD",
+        "subnet":1,
+        "mtype":1
+        },
+    "RAW-VIP":{
+        "type":1,
+        "name":"RAW-VIP",
+        "description":"RAW-VIP FLOOD",
+        "subnet":1,
+        "mtype":1
+    },
+    "SSH-VIP":{
+        "type":1,
+        "name":"SSH-VIP",
+        "description":"SSH-VIP FLOOD",
+        "subnet":1,
+        "mtype":1
+        },
+    "UDP-VIP":{
+        "type":1,
+        "name":"UDP-VIP",
+        "description":"UDP-VIP FLOOD",
+        "subnet":1,
+        "mtype":1
+        },
+    "TCP-VIP":{
+        "type":1,
+        "name":"TCP-VIP",
+        "description":"TCP-VIP FLOOD",
+        "subnet":1,
+        "mtype":1
+    },
+    "GAME-MIX":{
+        "type":1,
+        "name":"GAME-MIX",
+        "description":"GAME-MIX FLOOD",
+        "subnet":1,
+        "mtype":1
+        },
+    "GAME-THEFINALS":{
+        "type":1,
+        "name":"GAME-THEFINALS",
+        "description":"GAME-THEFINALS FLOOD",
+        "subnet":1,
+        "mtype":1
+        },
+    "GAME-RL":{
+        "type":1,
+        "name":"GAME-RL",
+        "description":"GAME-RL FLOOD",
+        "subnet":1,
+        "mtype":1
+    },
+    "GAME-FIVEM":{
+        "type":1,
+        "name":"GAME-FIVEM",
+        "description":"GAME-FIVEM FLOOD",
+        "subnet":1,
+        "mtype":1
+        },
+    "HTTP":{
+        "type":2,
+        "name":"HTTP (Layer7)",
+        "description":"HTTP FLOOD",
+        "subnet":1,
+        "mtype":1
+        },
+    "HTTP-RDM":{
+        "type":2,
+        "name":"HTTP-RDM (Layer7)",
+        "description":"Layer 7, HTTP-RDM FLOOD",
+        "subnet":1,
+        "mtype":1
+    },
+    "HTTP-BETA":{
+        "type":2,
+        "name":"HTTP-BETA (Layer7)",
+        "description":"HTTP-BETA FLOOD",
+        "subnet":1,
+        "mtype":1
+        },
+    "HTTP-NOVIP":{
+        "type":2,
+        "name":"HTTP-NOVIP (Layer7)",
+        "description":"HTTP-NOVIP FLOOD",
+        "subnet":1,
+        "mtype":1
+    },
+    "CFBYPASS":{
+        "type":2,
+        "name":"CFBYPASS (Layer7)",
+        "description":"CFBYPASS FLOOD",
+        "subnet":1,
+        "mtype":0
+        },
+    "HTTP-ROY":{
+        "type":2,
+        "name":"HTTP-ROY (Layer7)",
+        "description":"HTTP-ROY FLOOD",
+        "subnet":1,
+        "mtype":1
+    },
+        "HTTP-VIP":{
+        "type":2,
+        "name":"HTTP-VIP (Layer7)",
+        "description":"HTTP-VIP FLOOD",
+        "subnet":1,
+        "mtype":1
+        },
+    "ROY":{
+        "type":2,
+        "name":"ROY (Layer7)",
+        "description":"ROY FLOOD",
+        "subnet":1,
+        "mtype":1
+    },
+    "ROY-VIP":{
+        "type":2,
+        "name":"ROY-VIP (Layer7)",
+        "description":"ROY-VIP FLOOD",
+        "subnet":1,
+        "mtype":1
+        }
+}

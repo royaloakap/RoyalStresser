@@ -1,0 +1,120 @@
+{
+ "plans": {
+    "0 FREE": {
+        "duration": 60,
+        "concurrents": 1,
+        "vip": false,
+        "api": false,
+        "expiry": 5,
+        "price": 0,
+        "fiat": "USD"
+    },
+        "2 WEEK": {
+            "duration": 120,
+            "concurrents": 1,
+            "vip": false,
+            "api": false,
+            "expiry": 14,
+            "price": 25,
+            "fiat": "USD"
+        },
+        "2 WEEK VIP": {
+            "duration": 120,
+            "concurrents": 1,
+            "VIP": true,
+            "api": false,
+            "expiry": 14,
+            "price": 35,
+            "fiat": "USD"
+        },
+        "Monthly": {
+            "duration": 240,
+            "concurrents": 2,
+            "VIP": true,
+            "api": false,
+            "expiry": 31,
+            "price": 50,
+            "fiat": "USD"
+        },
+        "Monthly VIP¨#1": {
+            "duration": 240,
+            "concurrents": 2,
+            "VIP": true,
+            "api": false,
+            "expiry": 90,
+            "price": 100,
+            "fiat": "USD"
+        },
+        "Monthly API #1": {
+            "duration": 200,
+            "concurrents": 1,
+            "vip": false,
+            "api": true,
+            "expiry": 7,
+            "price": 30,
+            "fiat": "USD"
+        },
+        "Monthly API #2": {
+            "duration": 300,
+            "concurrents": 3,
+            "vip": false,
+            "api": true,
+            "expiry": 31,
+            "price": 60,
+            "fiat": "USD"
+        },
+        "Monthly API VIP #3": {
+            "duration": 300,
+            "concurrents": 3,
+            "vip": false,
+            "api": true,
+            "expiry": 31,
+            "price": 80,
+            "fiat": "USD"
+        }
+    },
+    "addons": {
+        "VIP-ACCES":{
+            "price":40,
+            "fiat":"USD",
+            "upgrade":"VIP",
+            "value":1,
+            "expiry":31
+        },
+        "+60SEC":{
+            "price":10,
+            "fiat":"USD",
+            "upgrade":"+ 60 SECS",
+            "value":1,
+            "expiry":31
+        },
+        "+1CONC":{
+            "price":15,
+            "fiat":"USD",
+            "upgrade":"+ 1 CONC",
+            "value":1,
+            "expiry":31
+        },
+        "0COODLWON":{
+            "price":30,
+            "fiat":"USD",
+            "upgrade":"OS COOLDOWN",
+            "value":1,
+            "expiry":31
+        },
+        "POWER-SAVING":{
+            "price":50,
+            "fiat":"USD",
+            "upgrade":"POWER-SAVING",
+            "value":1,
+            "expiry":999
+        }
+    },
+    "limits":{
+        "concurrents":5,
+        "duration":300,
+        "api":1,
+        "vip":1,
+        "cnc":1
+    }
+}

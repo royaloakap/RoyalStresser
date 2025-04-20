@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html class="loading dark-layout" lang="en" data-layout="dark-layout" data-textdirection="ltr">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0,minimal-ui">
+    <title>{{.Name}} | {{.Title}}</title>
+    <link rel="apple-touch-icon" href="/_assets/images/ico/apple-icon-120.png">
+    <link rel="shortcut icon" type="image/x-icon" href="/_assets/images/ico/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;500&family=Raleway:wght@100;200;300;400;500&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!-- Fonts and Icons -->
+    <script src="https://kit.fontawesome.com/d106b983f3.js" crossorigin="anonymous"></script>
+
+    <!-- Vendor CSS -->
+    <link rel="stylesheet" type="text/css" href="/_assets/vendors/css/vendors.min.css">
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" type="text/css" href="/_assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="/_assets/css/bootstrap-extended.css">
+    <link rel="stylesheet" type="text/css" href="/_assets/css/colors.css">
+    <link rel="stylesheet" type="text/css" href="/_assets/css/components.css">
+    <link rel="stylesheet" type="text/css" href="/_assets/css/themes/dark-layout.css">
+
+    <!-- Custom Styles -->
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Raleway', sans-serif;
+            background: linear-gradient(to bottom right, #141629, #1f2235);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            color: #ffffff;
+        }
+
+        .auth-inner {
+            background: #1e1e2f;
+            padding: 2rem;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+        }
+
+        .brand-logo h2 {
+            font-size: 1.8rem;
+            color: #7269f8;
+        }
+
+        .form-label {
+            font-size: 0.9rem;
+            color: #d1d1d1;
+        }
+
+        .form-control {
+            background: #2b2e44;
+            color: #ffffff;
+            border: 1px solid #3c3f52;
+            border-radius: 8px;
+            padding: 0.75rem;
+        }
+
+        .form-control:focus {
+            border-color: #7269f8;
+        }
+
+        .btn-primary {
+            background: #7269f8;
+            color: #ffffff;
+            border-radius: 8px;
+            border: none;
+            transition: background 0.3s ease;
+        }
+
+        .btn-primary:hover {
+            background: #5b51d8;
+        }
+
+        .divider {
+            color: #b3b3b3;
+            margin: 1rem 0;
+            font-size: 0.9rem;
+        }
+
+        .text-primary {
+            color: #7269f8;
+            text-decoration: none;
+        }
+
+        .text-primary:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Content -->
+    <div class="auth-wrapper auth-basic px-2">
+        <div class="auth-inner">
+            <!-- Brand -->
+            <a href="/" class="brand-logo">
+                <h2>{{.Name}}</h2>
+            </a>
+
+            <!-- Login Form -->
+            <form class="auth-login-form mt-2" action="/login" method="POST">
+                <div class="mb-1">
+                    <label for="login-username" class="form-label">Username</label>
+                    <input type="text" class="form-control" id="login-username" name="login-username" placeholder="Username" autofocus />
+                </div>
+
+                <div class="mb-1">
+                    <label for="login-password" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="login-password" name="login-password" placeholder="********" />
+                </div>
+
+                <div class="mb-1">
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="remember-me" name="remember-me" />
+                        <label class="form-check-label" for="remember-me">Remember Me</label>
+                    </div>
+                </div>
+
+                <button class="btn btn-primary w-100">Sign in</button>
+                <div class="divider">or</div>
+                <p class="text-center">
+                    <span>Don't have an account?</span>
+                    <a href="/signup" class="text-primary">Signup!</a>
+                </p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+
+<!-- END: Content-->
+
+
+<!-- BEGIN: Vendor JS-->
+<script src="/_assets/vendors/js/vendors.min.js"></script>
+<!-- BEGIN Vendor JS-->
+
+<!-- BEGIN: Page Vendor JS-->
+<script src="/_assets/vendors/js/forms/validation/jquery.validate.min.js"></script>
+<!-- END: Page Vendor JS-->
+
+<!-- BEGIN: Theme JS-->
+<script src="/_assets/js/core/app-menu.js"></script>
+<script src="/_assets/js/core/app.js"></script>
+<!-- END: Theme JS-->
+
+<!-- BEGIN: Page JS-->
+<script src="/_assets/js/scripts/extensions/ext-component-toastr.js"></script>
+<!-- END: Page JS-->
+
+<!-- BEGIN: Page Vendor JS-->
+<script src="/_assets/vendors/js/extensions/toastr.min.js"></script>
+<!-- END: Page Vendor JS-->
+
+
+<!-- BEGIN: Page JS-->
+<script src="/_assets/js/scripts/pages/auth-login.js"></script>
+<!-- END: Page JS-->
+
+
+{{.Script}}
+
+<script>
+    $(window).on('load', function () {
+        if (feather) {
+            feather.replace({
+                width: 14,
+                height: 14
+            });
+        }
+    })
+</script>
+</body>
+<!-- END: Body-->
+</html>
